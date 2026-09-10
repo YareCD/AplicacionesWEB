@@ -3,81 +3,111 @@ body{
     background-color: #f5e6d3;
 }
 
+header{
+    background-color: #7b4b3a;
+    padding: 3rem;
+    text-align: center;
+    align-items: center;
+}
+
 h1{
     font-size: 5rem;
-    color: #7b4b3a;
-    margin-left: 5%;
+    color: white;
+    margin: 0;
 }
 
-h2{
-    color: #7b4b3a;
-    font-size: 2rem;
-}
-
-p{
-    font-size: 1.2rem;
-    color: #222;
-    line-height: 2rem;
-}
-
-a{
+header p{
+    color: white;
     font-size: 1.5rem;
-    color: #9b5de5;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    background-color: #ffe0e9;
+}
+
+nav a{
+    font-size: 1.5rem;
+    color: #7b4b3a;
     text-decoration: none;
 }
 
-a:hover{
-    color: #ff6f91;
-}
-
-.intro{
-    margin-left: 5%;
-    margin-right: 5%;
+nav a:hover{
+    color: #e75480;
 }
 
 .imgclass{
     width: 90%;
-    margin-left: 5%;
+    height: 400px;
+    object-fit: cover;
+    margin: 3rem 5%;
     border-radius: 20px;
 }
 
-.flex{
-    margin-top: 5rem;
+.contenedor{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 5rem;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem;
 }
 
-.leftdiv{
+.tarjeta{
     width: 35%;
-    background-color: #ffe0e9;
-    border-radius: 20px;
+    min-height: 250px;
+    background-color: #fff;
     border: 5px solid #7b4b3a;
+    border-radius: 20px;
     padding: 2rem;
 }
 
-.rightdiv{
-    width: 45%;
+.tarjeta h2{
+    color: #7b4b3a;
+    font-size: 2rem;
+}
+
+.tarjeta p{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+.preparacion{
+    margin: 5rem 3rem;
+    text-align: center;
+}
+
+.preparacion h2{
+    font-size: 3rem;
+    color: #7b4b3a;
+}
+
+.pasos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.paso{
+    width: 20%;
     background-color: #d9f0ff;
-    border-radius: 20px;
-    border: 5px solid #7b4b3a;
-    padding: 2rem;
-}
-
-.divflex1{
-    width: 40%;
-}
-
-.divflex2{
-    width: 45%;
-}
-
-.tips{
-    width: 80%;
-    margin: auto;
-    background-color: #fff3b0;
-    border: 5px solid #7b4b3a;
+    border: 4px solid #7b4b3a;
     border-radius: 20px;
     padding: 2rem;
-    margin-bottom: 5rem;
+}
+
+.paso h3{
+    color: #7b4b3a;
+    font-size: 1.5rem;
+}
+
+.paso p{
+    font-size: 1rem;
+    line-height: 1.7rem;
 }
