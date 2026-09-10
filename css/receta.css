@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    background-color: #fff1f5;
+}
+
+header{
+    background-color: #7b4b3a;
+    padding: 3rem;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
+header a{
+    color: #ffe0e9;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: white;
+}
+
+.receta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 4rem;
+    gap: 3rem;
+}
+
+.ingredientes{
+    width: 25%;
+    background-color: #ffe0e9;
+    border: 5px solid #7b4b3a;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.ingredientes h2{
+    color: #7b4b3a;
+    font-size: 2rem;
+}
+
+.ingredientes p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.preparacion{
+    width: 55%;
+}
+
+.preparacion h2{
+    color: #7b4b3a;
+    font-size: 2.5rem;
+}
+
+.pasos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.paso{
+    width: 35%;
+    background-color: #d9f0ff;
+    border: 4px solid #7b4b3a;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+.paso h3{
+    color: #7b4b3a;
+    font-size: 1.5rem;
+}
+
+.paso p{
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.consejos{
+    width: 70%;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #fff3b0;
+    border: 5px solid #7b4b3a;
+    border-radius: 20px;
+}
+
+.consejos h2{
+    color: #7b4b3a;
+    font-size: 2rem;
+}
+
+.consejos p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+footer{
+    background-color: #7b4b3a;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    font-size: 1.3rem;
+}
